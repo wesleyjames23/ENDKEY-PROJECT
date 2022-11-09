@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background-image: url(../img/hero/hero1.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.endkey-text {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #04c3ff;
+  background-color: black;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.hero-header-text {
+  font-size: 1.8rem;
+  color: #04c3ff;
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.list {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+
+/* SPECS SECTION */
+
+.specs-section {
+  padding: 35rem;
+  background-image: url(../img/specs/specs2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* HERO2 SECTION */
+
+.hero2-section {
+  background-image: url(../img/hero/hero\ 2.jpeg);
+  height: 60vh;
+  background-size: cover;
+}
+
+.hero2-header-text {
+  font-size: 2.6rem;
+  color: white;
+  text-align: center;
+  padding-top: 15rem;
+}
+
+/* SWITCH SECTION */
+
+.switches-section {
+  height: 40vh;
+}
+
+.switch-header-text {
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.blue-text {
+  color: #04c3ff;
+}
+
+.switches-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.switch-img {
+  width: 100%;
+  height: 200px;
+  margin-top: 2rem;
+}
+
+/* KEYBOARD SECTION */
+
+.keyboards-section {
+  background-color: #04c3ff;
+}
+
+.keyboards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding-bottom: 6rem;
+}
+
+.keyboard-header-text {
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.keyboard-img {
+  width: 250px;
+  height: 200px;
+  padding-bottom: 1rem;
+}
+
+.keyboard-model {
+  padding-bottom: 1rem;
+}
+
+.keyboard-list {
+  list-style: none;
+}
+
+.price-btn {
+  background-color: black;
+  color: #04c3ff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 16rem;
+}
+
+/* footer section */
+
+footer {
+  background-color: black;
+}
+
+.endgame-text {
+  color: #555;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.price-btn:hover {
+  cursor: pointer;
+}
